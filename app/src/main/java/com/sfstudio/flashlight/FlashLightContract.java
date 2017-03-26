@@ -5,6 +5,7 @@ import android.content.Context;
 
 public interface FlashLightContract {
 
+
     // View (Display Fragment) will handle this method
     interface publishToView {
         void toggleButtonImage(boolean status);

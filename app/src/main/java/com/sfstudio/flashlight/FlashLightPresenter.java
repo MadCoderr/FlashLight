@@ -13,8 +13,8 @@ public class FlashLightPresenter implements
     private Activity activity; // to obtain getApplicationContext()
 
     private Camera camera;
-    private boolean hasFlash = false;
-    private boolean isFlashOn = false;
+    private boolean hasFlash;
+    private boolean isFlashOn;
     private Camera.Parameters parameters;
 
 
@@ -89,5 +89,5 @@ public class FlashLightPresenter implements
         }
 
     }
-
+    
 }

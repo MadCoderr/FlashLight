@@ -3,6 +3,7 @@ package com.sfstudio.flashlight;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 public class FlashLightActivity extends AppCompatActivity
 {
 
@@ -19,4 +20,5 @@ public class FlashLightActivity extends AppCompatActivity
         // set presenter for display fragment
         displayFragment.setPresenter(presenter);
     }
+
 }
