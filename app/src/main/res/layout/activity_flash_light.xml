@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_activity_flashLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sfstudio.flashlight.FlashLightActivity">
+
+    <fragment
+        android:id="@+id/frag_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.sfstudio.flashlight.DisplayFragment"
+        tools:layout="@layout/fragment_display"/>
+
+</RelativeLayout>
