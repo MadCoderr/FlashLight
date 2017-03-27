@@ -1,8 +1,6 @@
 package com.sfstudio.flashlight;
 
 
-import android.content.Context;
-
 public interface FlashLightContract {
 
 
